@@ -1,0 +1,20 @@
+---
+title: "Lab02"
+output: html_document
+---
+
+```{r}
+install.packages("tidymodels")
+library(ggplot2)
+library(tidyverse)
+library(tidymodels)
+library(corrplot)
+library(ggthemes)
+tidymodels_prefer()
+```
+
+
+```{r}
+abalone <- read_csv("~/Downloads/homework-2/data/abalone.csv")
+```
+
